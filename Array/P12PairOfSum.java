@@ -4,7 +4,7 @@ public class P12PairOfSum
 	{
 		int a[]={6,8,4,-5,7,9};
 		bruteForcePairSum(a,15);
-		
+		//two pointer approach;
 		optimalApproach(a,15);
 	}
 	
