@@ -52,31 +52,10 @@ class Union extends TestArr
 	{
 		System.out.println("\nprinting union of array");
 		for(int i=0;i<a.length;i++)
-		{	boolean flag=true;
-			for(int j=0;j<b.length;j++)
-			{
-				if(a[i]==b[j])
-				{
-					flag=false;
-				}
-			}
-			if(flag)
-			{
-				System.out.print(a[i]+ " ");
-			}
+		{	
+			System.out.print(a[i]+" ");
 		}
 		
-		for(int i=0;i<b.length;i++)
-		{	
-			for(int j=0;j<a.length;j++)
-			{
-				if(b[i]==a[j])
-				{
-					System.out.print(b[i]+ " ");
-				}
-			}
-			
-		}
 		
 		for(int i=0;i<b.length;i++)
 		{	boolean flag=true;
