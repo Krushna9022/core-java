@@ -65,7 +65,7 @@ public class ArrayInherit
 			System.out.print(i);
 		}
 		
-		
+		System.out.println();
 		FindSumSubArr f=new FindSumSubArr();
 		f.setArray(new int[]{1,2,3,4,5,6,7,8,9});
 		f.setValue(9);
