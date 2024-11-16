@@ -16,7 +16,7 @@ class NineStd extends Result
 			total+=marks[i];
 		}
 		double per= total/marks.length-1;
-		 System.out.println(" best five marks of ten std is "+ total+" and percentage is "+per);
+		 System.out.println("  marks of nine std is "+ total+" and percentage is "+per);
 	}
 }
 
